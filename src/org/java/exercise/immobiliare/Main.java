@@ -34,7 +34,7 @@ public class Main {
         // creo uno spazio
         System.out.println();
 
-        System.out.println("------------------------------------------------------------------------- IMMOBILI ----------------------------------------------------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------------- IMMOBILI ------------------------------------------------------------------------------------------------");
 
         // creo uno spazio
         System.out.println();
@@ -43,6 +43,13 @@ public class Main {
         System.out.println(b1.toString());
         System.out.println(a1.toString() + " }");
         System.out.println(v1.toString());
+        // creo uno spazio
+        System.out.println();
+
+        System.out.println("------------------------------------------------------------------- NUOVA SUPERFICIE IMMOBILE -----------------------------------------------------------------------------------------");
+
+        // creo uno spazio
+        System.out.println();
 
         // medoto reimpostaSuperficie (villa)
         v1.reimpostaSuperfici(70, 95);
@@ -52,6 +59,7 @@ public class Main {
         System.out.println();
 
         System.out.println("-------------------------------------------------------------------- RICERCA PER CODICE -----------------------------------------------------------------------------------------------");
+
         // creo uno spazio
         System.out.println();
 
