@@ -19,20 +19,20 @@ public class Immobili {
     private String codiceImmobile;
     private String indirizzo;
     private int cap;
-    private String città;
+    private String citta;
     private int superficie;
-    private int personeInteressate = 0;
+    private int personeInteressate;
 
 
     // COSTRUTTORI
 
-    public Immobili(String codiceImmobile, String indirizzo, int cap, String città, int superficie, int personeInteressate) {
+    public Immobili(String codiceImmobile, String indirizzo, int cap, String citta, int superficie, int personeInteressate) {
         this.codiceImmobile = codiceImmobile;
         this.indirizzo = indirizzo;
         this.cap = cap;
-        this.città = città;
+        this.citta = citta;
         this.superficie = superficie;
-        this.personeInteressate = personeInteressate;
+        this.personeInteressate = 0;
     }
 
 
@@ -51,7 +51,7 @@ public class Immobili {
     }
 
     public String getCittà() {
-        return città;
+        return citta;
     }
 
     public int getSuperficie() {
@@ -81,9 +81,8 @@ public class Immobili {
                 "codiceImmobile='" + codiceImmobile + '\'' +
                 ", indirizzo='" + indirizzo + '\'' +
                 ", cap=" + cap +
-                ", città='" + città + '\'' +
+                ", città='" + citta + '\'' +
                 ", superficie=" + superficie +
-                ", personeInteressate=" + personeInteressate +
-                '}';
+                ", personeInteressate=" + personeInteressate;
     }
 }

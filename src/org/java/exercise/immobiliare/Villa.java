@@ -15,8 +15,8 @@ public class Villa extends Abitazione {
 
 
     // COSTRUTTORI
-    public Villa(String codiceImmobile, String indirizzo, int cap, String città, int superficie, int personeInteressate, int vani, int bagni, int mqGiardino) {
-        super(codiceImmobile, indirizzo, cap, città, superficie, personeInteressate, vani, bagni);
+    public Villa(String codiceImmobile, String indirizzo, int cap, String citta, int superficie, int personeInteressate, int vani, int bagni, int mqGiardino) {
+        super(codiceImmobile, indirizzo, cap, citta, superficie, personeInteressate, vani, bagni);
         this.mqGiardino = mqGiardino;
     }
 
@@ -35,6 +35,6 @@ public class Villa extends Abitazione {
     @Override
     public String toString() {
         return super.toString() +
-                ", mqGiardino=" + mqGiardino;
+                ", mqGiardino=" + mqGiardino + " }";
     }
 }

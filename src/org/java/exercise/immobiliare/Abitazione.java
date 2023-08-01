@@ -14,8 +14,8 @@ public class Abitazione extends Immobili{
     private int vani;
     private int bagni;
     // COSTRUTTORI
-    public Abitazione(String codiceImmobile, String indirizzo, int cap, String città, int superficie, int personeInteressate, int vani, int bagni) {
-        super(codiceImmobile, indirizzo, cap, città, superficie, personeInteressate);
+    public Abitazione(String codiceImmobile, String indirizzo, int cap, String citta, int superficie, int personeInteressate, int vani, int bagni) {
+        super(codiceImmobile, indirizzo, cap, citta, superficie, personeInteressate);
         this.vani = vani;
         this.bagni = bagni;
     }
@@ -29,7 +29,7 @@ public class Abitazione extends Immobili{
     @Override
     public String toString() {
         return super.toString() + ", vani=" + vani +
-                ", bagni=" + bagni;
+                ", bagni=" + bagni ;
     }
 
 

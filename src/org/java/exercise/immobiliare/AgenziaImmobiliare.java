@@ -52,7 +52,7 @@ public class AgenziaImmobiliare {
         int numeroPersoneInteressate = 0;
         // itero un ciclo for-each
         for (Immobili immobili : immobile) {
-            if (immobili.getPersoneInteressate() >= numeroPersoneInteressate){
+            if (immobili.getPersoneInteressate() > numeroPersoneInteressate){
                 immobileInteressante = immobili;
                 numeroPersoneInteressate = immobili.getPersoneInteressate();
             }
