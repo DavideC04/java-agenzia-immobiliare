@@ -75,6 +75,7 @@ public class Main {
             // altrimenti stampo un messaggio che non l'ho trovato
             System.out.println("Immobile con codice " + ricerca + " non trovato.");
         }
+
         // creo uno spazio
         System.out.println();
 
