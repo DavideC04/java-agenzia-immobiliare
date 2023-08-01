@@ -47,7 +47,20 @@ public class AgenziaImmobiliare {
     }
 
     // metodo per restituire l'immobile che ha avuto il maggior numero di persone interessate
-    
+    public Immobili numeroInteresse(){
+        Immobili immobileInteressante = null;
+        int numeroPersoneInteressate = 0;
+        // itero un ciclo for-each
+        for (Immobili immobili : immobile) {
+            if (immobili.getPersoneInteressate() >= numeroPersoneInteressate){
+                immobileInteressante = immobili;
+                numeroPersoneInteressate = immobili.getPersoneInteressate();
+            }
+            
+        }
+        return immobileInteressante;
+
+    }
 
 
 }
