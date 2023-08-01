@@ -34,11 +34,14 @@ public class Main {
         // creo uno spazio
         System.out.println();
 
-        System.out.println("------------------------------------------------------------------------- IMMOBILI --------------------------------------------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------------------- IMMOBILI ----------------------------------------------------------------------------------------------------");
+
+        // creo uno spazio
         System.out.println();
+
         // stampo il toString degli immobili
         System.out.println(b1.toString());
-        System.out.println(a1.toString());
+        System.out.println(a1.toString() + " }");
         System.out.println(v1.toString());
 
         // medoto reimpostaSuperficie (villa)
@@ -48,9 +51,10 @@ public class Main {
         // creo uno spazio
         System.out.println();
 
-        System.out.println("-------------------------------------------------------------------- RICERCA PER CODICE ---------------------------------------------------------------------------------------------");
+        System.out.println("-------------------------------------------------------------------- RICERCA PER CODICE -----------------------------------------------------------------------------------------------");
         // creo uno spazio
         System.out.println();
+
         // ricerca per codice alfanumerica
 
         String ricerca = "L06EQ71X";
@@ -66,19 +70,23 @@ public class Main {
         // creo uno spazio
         System.out.println();
 
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ IMMOBILE CON PIU' INTERESSE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ IMMOBILE CON PIU' INTERESSE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+        // creo uno spazio
         System.out.println();
+
         // immobile con più interesse
         Immobili immobilePiuInteressante = agenziaImmobiliare.numeroInteresse();
         // se c'è un immobile con più interesse da parte delle persone, lo stampo sul terminale
         if (immobilePiuInteressante != null){
-            System.out.println("L'immobile con più persone interessate è: " + immobilePiuInteressante.toString());
+            System.out.println("L'immobile più interessata dalle persone è: " + immobilePiuInteressante.toString());
         } else {
             System.out.println("Nessun immobile trovato");
         }
+        // creo uno spazio
         System.out.println();
 
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 
 
